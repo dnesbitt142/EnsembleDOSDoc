@@ -8,9 +8,9 @@
 | OS/2 DOS Session | | Set `fs` to `fs = os2.geo` | PC/GEOS Requires OS/2 V3 or higher |
 | PTS-DOS | Compatibility unknown | |
 | REAL/32 | Compatibility unknown | |
-| ROM-DOS | | | Known to work, v7.x supports FAT32 partitions |
+| ROM-DOS | | | Known to work, v7.x supports FAT32 partitions. Supplied EMM386.EXE is more basic compared to MS-DOS equivalent (i.e., does not support automatic testing/scanning of UMBs for free memory). |
 
 # Other resorces
-* [JEMM readme (FreeDOS memory manager](https://github.com/Baron-von-Riedesel/Jemm?tab=readme-ov-file#readme) - Section 3 may be useful for maximising conventional memory and/or improving system stability on a case-by-case basis.
+* [JEMM readme (FreeDOS memory manager)](https://github.com/Baron-von-Riedesel/Jemm?tab=readme-ov-file#readme) - Section 3 may be useful for maximising conventional memory and/or improving system stability on a case-by-case basis.
 * [ROM-DOS 6.22 user guide](https://ftp.emacinc.com/Tech_Info/ROMDOS/romdos_manual_62.pdf)
 * [ROM-DOS 7.1 user guide](https://www.express.nec.co.jp/usersguide/ISS-LS-2/RDOSUSER.PDF)
