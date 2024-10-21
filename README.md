@@ -10,7 +10,7 @@
 | REAL/32 | Compatibility unknown | |
 | ROM-DOS | | | Known to work, v7.x supports FAT32 partitions. Supplied EMM386.EXE is more basic compared to MS-DOS equivalent (i.e., does not support automatic testing/scanning of UMBs for free memory). |
 
-## Running FreeDOS on the bare mental?
+## Running FreeDOS on the bare metal?
 By default, FreeDOS seems to set up Jemmm wih the assumption it is running under emulation/virtualisation. If you are running FreeDOS directly on a Pentium or higher system, you might want to change the following parameters for the memory mamagers in `fdconfig.sys`:
 
 * Remove `NOINVLPG` statement. This disables the [INVLPG](https://www.felixcloutier.com/x86/invlpg) opcode, but seems to be only necessary when running FreeDOS under emulation/virtualisation.
