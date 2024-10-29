@@ -1,5 +1,8 @@
 # PC/GEOS and DOS Compatibility
 
+**Disclaimer:** The information provided here is based on the authors(s) experiences with various versions of PC/GEOS and later versions of the CI builds of FreeGEOS, along with information provided in the `readme.txt` file suppled with each version of PC/GEOS/FreeGEOS. Where others have provided information, the author(s) have tried to provide acknowledgement and references for such information. Running any DOS based system on modern hardware (post 2000, possibly earlier) can be difficult, and could impact the performance and stability of PC/GEOS/FreeGEOS as a result. This should probably be a wiki to simplify collaboration!
+
+
 | DOS type    | `config.sys` | `geos.ini` | Notes |
 | -------- | ------- | ------- | ------- |
 | DR-DOS | Set `FILES=120` or higher, and `BUFFERS=30` (or `HIBUFFERS=30`). | | PC/GEOS Requires DR-DOS v5.0 or higher |
