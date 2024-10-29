@@ -8,10 +8,10 @@
 | OS/2 DOS Session | | Set `fs` to `fs = os2.geo` | PC/GEOS Requires OS/2 V3 or higher |
 | PTS-DOS | Compatibility unknown | |
 | REAL/32 | Compatibility unknown | |
-| ROM-DOS | | | Known to work, v7.x supports FAT32 partitions. Supplied EMM386.EXE is more basic compared to MS-DOS equivalent (i.e., does not support automatic testing/scanning of UMBs for free memory). |
+| ROM-DOS | | | Known to work (with PC/GEOS 4.x), v7.x supports FAT32 partitions. Supplied ROM-DOS EMM386.EXE is more basic compared to the MS-DOS equivalent (i.e., does not support automatic testing/scanning of UMBs for free memory). |
 
 ## Running FreeDOS on the bare metal?
-By default, FreeDOS seems to set up Jemmm wih the assumption it is running under emulation/virtualisation. If you are running FreeDOS directly on a Pentium or higher system, you might want to change the following parameters for the memory managers in `fdconfig.sys`:
+By default, FreeDOS seems to set up Jemm wihh the assumption it is running under emulation/virtualisation. If you are running FreeDOS directly on a Pentium or higher system, you might want to change the following parameters for the memory managers in `fdconfig.sys`:
 
 * Remove `NOINVLPG` statement. This disables the [INVLPG](https://www.felixcloutier.com/x86/invlpg) opcode, but seems to be only necessary when running FreeDOS under emulation/virtualisation.
 * Replace `NOVME` with `VME`. This will enable your CPU's V86 Mode Extensions, which may (or may not) boost performance.
